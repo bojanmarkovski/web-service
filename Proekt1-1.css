@@ -1,0 +1,241 @@
+.loggo{
+	padding-top: 8px;
+}
+.logo{
+	font-size: 25px;
+	padding-top: 1vh;
+}
+.green_smile{
+	width: 30px; 
+	height: auto;
+	margin-left:-6px;
+	margin-top: -3px;
+}
+.red_smile{
+	width: 30px; 
+	height: auto; 
+	margin-left:-11px;
+	margin-right: 1px;
+	margin-top: -3px;
+}
+.first_page_smiley img{
+	margin: 0 auto;
+	width: 100%;
+}
+.pt_pb_18vh{
+	padding-top: 18vh;
+}
+.pt_pb_17vh{
+	padding-top: 18vh;
+}
+.pt_pb_13vh{
+	padding-top: 13vh;
+	padding-bottom: 2vh;
+}
+.pd_top_4vh{
+	padding-top: 4vh;
+}
+.pd_top_3vh{
+	padding-top: 3vh;
+}
+h4 span{
+	color: color: #CD8E2E;
+}
+.buttons .start{
+	padding: 3.3vh 6vh;
+	margin-top: 3vh;
+}
+.buttons a{
+	text-decoration: none;
+	color: #222222;
+}
+.lightgray{
+	color: #b7b5b5;
+	margin-bottom: 0px;
+}
+.question_work_week{
+	margin-top: 0px;
+}
+.register_pd_top{
+	padding-top: 4vh;
+}
+.signup_pd_top span{
+	font-size: 35px;
+	color: #449D44;
+}
+.signup_pd_top i{
+	color: #449D44;
+}
+.gray{
+	color: gray;
+}
+.result_picture{
+	margin: 0 auto;
+	width: 12vh;
+}
+.smiley_result{
+	width: 7vh;
+}
+.all_img_center img{
+	margin: 0 auto;
+}
+.pd_l_0{
+		padding-top: 0.6vh;
+}
+.pd_top_3vh{
+	padding-top: 4vh;
+}
+/*.star{
+	position: absolute;
+	top: 2.7vh;
+	left: 3vh;
+	margin-left: 42.6vh;
+	z-index: 100;
+	color: #449D44;
+}*/
+.mg-top{
+	margin-top: 7vh;
+}
+.slider,.slider2,.slider3,.slider4,.slider5, .begining {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 5px;
+    border-radius: 5px;
+    background:rgb(232, 196, 122);
+    outline: none;
+	opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none !important;
+    height: 55px;
+    width: 55px;
+    border-radius: 30%;
+    background-repeat: no-repeat;
+}
+
+input[type=range]::-moz-range-thumb {
+    -moz-appearance: none !important;
+    background-color: dimgray;
+    border: none;
+    height: 13px;
+    width: 13px;
+    border-radius: 50%;
+}
+
+.begining::-webkit-slider-thumb {
+	-webkit-appearance: none!important; 
+	appearance: none;
+	cursor: pointer;
+	margin-top: -62px;
+	background-size: contain;
+    background-image: url(suprisedSmile.png);
+}
+
+.slider::-webkit-slider-thumb {
+	-webkit-appearance: none!important; 
+	appearance: none;
+	cursor: pointer;
+	margin-top: -62px;
+	background-size: contain;
+    background-image: url(suprisedSmile.png);
+}
+.slider2::-webkit-slider-thumb {
+	-webkit-appearance: none!important; 
+	appearance: none;
+	cursor: pointer;
+	margin-top: -62px;
+	background-size: contain;
+	background-image: url(sadSlide.png);
+	
+}
+.slider3::-webkit-slider-thumb {
+	-webkit-appearance: none!important; 
+	appearance: none;
+	cursor: pointer;
+	margin-top: -62px;
+	background-size: contain;
+    background-image: url(stressSlide.png);
+}
+.slider4::-webkit-slider-thumb {
+	-webkit-appearance: none!important; 
+	appearance: none;
+	cursor: pointer;
+	margin-top: -62px;
+	background-size: contain;
+    background-image: url(smildeSlide.png);
+}
+.slider5::-webkit-slider-thumb {
+	-webkit-appearance: none!important; 
+	appearance: none;
+	cursor: pointer;
+	margin-top: -62px;
+	background-size: contain;
+    background-image: url(happySlide.png);
+}
+
+
+@media screen and (max-width: 889px) {
+   	.pt_pb_18vh{
+		padding-top: 10vh;
+	}
+	.pt_pb_18vh h2{
+		font-size: 20px;
+	}
+	.pd_top_3vh{
+	padding-top: 0vh;
+	}
+	.dada{
+		padding-top: 1vh;
+	}
+	/*.star{
+	position: absolute;
+	top: 3vh;
+	left: 3vh;
+	margin-left: 48vh;
+	color: #449D44;
+	}*/
+}
+@media screen and (max-width: 480px) {
+   	.pd_top_3vh{
+		padding-top: 1vh;
+	}
+	.pt_pb_17vh{
+		padding-top: 13vh;
+	}
+	.signup_pd_top span{
+		font-size: 30px;
+	}
+	.pd_l_0{
+		padding-top: 1.5vh;
+		padding-left: 0px;
+	}
+	.pd_r_0{
+		padding-right: 0px;
+	}
+	.mg-top{
+		margin-top: 3vh;
+	}
+}
+
+@media screen and (max-width: 340px) {
+	.pt_pb_17vh{
+		padding-top: 8vh;
+	}
+	.loggo p{
+		font-size: 20px;
+	}
+	.result_picture{
+		width: 9vh;
+	}
+	.pd_top_result_picture{
+		padding-top: 2vh;
+	}
+	.mg-top{
+		margin-top: 1vh;
+	}
+}
+
+
